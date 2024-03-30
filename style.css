@@ -1,0 +1,284 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+
+.box1{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.box1 img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box2{
+    width: 20%;
+    height: 22%;
+    background-color: rgba(222, 184, 135, 0.596);
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    border-radius: 200px;
+}
+.box2 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 40%;
+    top: -20%;
+    font-size: 1200%;
+    color: rgb(128, 79, 54);
+    
+}
+
+.box3{
+    width: 40%;
+    height: 85%;
+    background-color: rgba(0, 0, 0, 0.425);
+    position: absolute;
+    left: 10%;
+    top: 8%;
+    
+}
+
+
+.box3 h3{text-align: center;
+    padding-top: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(178, 144, 100);
+    font-size: 500%;
+}
+
+
+.box3 h4{
+    color: rgb(180, 143, 94);
+    line-height: 180%;
+    font-size: 200%;
+    text-align: center;
+    padding-top: 6%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box3 button{
+    width: 70%;
+    height: 14%;
+    font-size: 200%;
+    position: absolute;
+    top: 85%;
+    left: 15%;
+    background-color: transparent;
+    color: rgb(203, 162, 108);
+    border-radius: 20px;
+    border: 3px solid rgb(195, 154, 102);
+}
+.box4{
+    width: 100%;
+    height: 100%;
+    border-radius: 200px;
+    background-color: rgba(179, 126, 83, 0.886);
+    position: absolute;
+    left: 150%;
+}
+
+.box4 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: -23%;
+    left: 28%;
+}
+
+
+.box5{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 200px;
+    background-color: rgba(148, 100, 60, 0.886);
+    position: absolute;
+    left: 300%;
+    
+}
+
+
+.box7{
+    width: 40%;
+    height: 85%;
+    background-color: rgba(197, 160, 112, 0.925);
+    position: absolute;
+    left: 50%;
+    top: 8%;
+}
+
+.box7 h1{
+    color:  rgba(255, 255, 255, 0.838);
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 450%;
+}
+
+
+.box7 h5{ 
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 61%;
+    left: 25%;
+    font-size: 200%;
+}
+
+
+
+.box7 h5:hover{
+    color: transparent;
+}
+
+.box7 button{
+    background-color: transparent;
+    width: 80%;
+    font-size: 200%;
+    position: absolute;
+    left: 10%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color:rgba(222, 184, 135, 0.925);
+    color: rgb(133, 103, 68);
+}
+
+
+
+
+.box7 i{
+    color: rgb(133, 103, 68);
+    background: none;
+    position: absolute;
+    left: 0;
+    top: -20%;
+    font-size: 120%;
+}
+
+.body button{
+    width: 15%;
+    height: 15%;
+    border-radius: 20px;
+    color: rgba(138, 107, 70, 0.925);
+    border: 3px solid rgba(138, 107, 70, 0.925);
+    position: absolute;
+    left: 8%;
+    top: 75%;
+}
+
+.body button{
+ background-color: transparent;
+
+}
+.body button:hover,i:hover{
+    background-color: aqua;
+    color: black;
+    transition: all ease 0.s;
+}
+
+.body i{
+    font-size: 200%;
+    position: absolute;
+    left: 23%;
+    top: 27%;
+}
+
+.body2 button{
+    width: 15%;
+    height: 15%;
+    border-radius: 20px;
+    color: rgba(138, 107, 70, 0.925);
+    border: 3px solid rgba(138, 107, 70, 0.925);
+    position: absolute;
+    top: 75%;
+    left: 28%;
+}
+.body2 button:hover {
+    background-color: aqua;
+    transition: all ease 0.5s;
+}
+
+
+.body2 i{
+    font-size: 200%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+}
+
+
+
+.body3 button{
+    width: 15%;
+    height: 15%;
+    border-radius: 20px;
+    color: rgba(138, 107, 70, 0.925);
+    border: 3px solid rgba(138, 107, 70, 0.925);
+    position: absolute;
+    top: 75%;
+    left: 48%;
+}
+.body3 button:hover {
+    background-color: aqua;
+    transition: all ease 0.5s;
+}
+
+.body3 i{
+    font-size: 200%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+}
+
+
+
+
+.box7 h1:hover{
+    color: rgb(98, 75, 45);
+    transition: all ease 0.8s;
+
+}
+
+.body4 button{
+    width: 15%;
+    height: 15%;
+    border-radius: 20px;
+    color: rgba(138, 107, 70, 0.925);
+    border: 3px solid rgba(138, 107, 70, 0.925);
+    position: absolute;
+    top: 75%;
+    left: 68%;
+}
+.body4 button:hover{
+    background-color: aqua;
+    
+    transition: all ease 0.5s;
+}
+
+
+.body4 i{
+    font-size: 200%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+}
+.box7>button:hover{
+    color: transparent;
+}
+.box7>button:hover button::after{
+    content: 'jai shree ram!';
+    color: black;
+}
